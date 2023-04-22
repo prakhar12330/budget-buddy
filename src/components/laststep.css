@@ -1,0 +1,24 @@
+.container-ls
+{
+    padding-left: 20%;
+}
+
+.inp
+{
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.46);
+    border-radius: 5px;
+    padding-left: 4px;
+    width: 60%;
+}
+
+
+.ls-button
+{
+    border-radius: 5px;
+}
+
+.ls-btt
+{
+    padding-left: 27%;
+}

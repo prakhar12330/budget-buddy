@@ -1,0 +1,41 @@
+.hdr 
+{
+    text-align: right;
+    padding: 10px 0px;
+    display: flex;
+    font-size: 17px;
+    font-weight: 100;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 5px;
+    background-color: rgb(224, 224, 101);
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.rightheaders{
+    display: flex;
+}
+
+.navitem{
+    color: black;
+    transition: 0.3s;
+    padding: 10px 30px;
+        border-radius: 10px;
+}
+.navitem:hover{
+
+    background-color: yellow;
+   
+}
+.navlogo {
+    font-weight: bold;
+    
+    color: yellow;
+}
+.navlogo:hover {
+    opacity: 0.5;
+    background-color: transparent;
+
+}

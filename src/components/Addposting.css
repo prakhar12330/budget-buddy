@@ -1,0 +1,102 @@
+.container-ap{
+    justify-content: center;
+    align-items: center;
+}
+
+.container-ap-1 {
+    display: flex;
+
+}
+.container-ap-2
+{
+    justify-content: center;   
+}
+.pageheader2
+{
+    padding-left: 90px;
+}
+.left-side-ap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+}
+.right-side-ap {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+
+}
+.left-side-ap-top
+{
+    height:50px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding:4px;
+    width:80%;
+}
+.left-side-ap-bottom
+{
+    height: 30px;
+    padding: 4px;
+    width:80%;
+    border-radius: 5px;
+}
+.temp1
+{
+    padding-bottom: 4px;
+}
+.temp2
+{
+    padding-top:4px;
+}
+.right-side-ap-top {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 4px;
+    width: 80%;
+}
+
+.right-side-ap-bottom {
+    height: 30px;
+    padding: 4px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.bottom-ap
+{
+    padding-left: 22px;
+
+}
+
+.button-ap {
+    border-radius: 6px;
+}
+
+.button-ap:hover
+{
+    background-color: rgb(242, 242, 109);
+}
+
+.bottom-ap-input
+{
+    padding-left: 20px;
+}
+
+.center-bottom
+{  
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.46);
+    border-radius: 5px;
+    padding-left: 4px;
+    width: 60%;
+}
+
+.button-ap-dv
+{
+    padding-top: 20px;
+    padding-left: 20px;
+}
