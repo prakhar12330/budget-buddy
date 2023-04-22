@@ -41,7 +41,7 @@ const Header = () => {
                         color
                             : "white",
                         textDecoration: "none",
-                    }} to={"/coins"}>Log In</Link>
+                    }} to={"/login"}>User</Link>
                 </span>
             </div>
         </div >

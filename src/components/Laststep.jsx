@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './laststep.css'
+import { useNavigate } from 'react-router-dom';
 
 const Laststep = () => {
+
+    const navigate = useNavigate();
     return (
         <>
+
             <h1 className='pageheader'>One Last Step...</h1>
             <div className='container-ls'>
                 <div>
@@ -24,11 +28,14 @@ const Laststep = () => {
                 <div>
                     <input className='inp' type='text' placeholder='Home Address'></input>
                 </div>
-                
+
                 <div className='ls-btt'>
-                    <button className='ls-button'>Continue</button>
+                    <button onClick={() => {
+                        navigate("/explore")
+                    }} className='ls-button'>Continue</button>
                 </div>
             </div>
+
         </>
     )
 }
