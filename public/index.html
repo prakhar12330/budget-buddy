@@ -23,7 +23,32 @@
       Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
+    
     -->
+    <style>
+      * {
+        font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      @media only screen and (max-width: 1100px) {
+  #root{
+    display: none;
+  }
+  #warning{
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+}
+  @media only screen and (min-width: 1100px) {
+  #warning{
+    display: none;
+  }
+}
+
+    </style>
     <title>React App</title>
   </head>
   <body>

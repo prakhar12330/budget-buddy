@@ -8,38 +8,43 @@ const Header = () => {
             <span className='navlogo navitem' >
                 <Link style={{
                     color
-                        : "black",
-                    opacity: 0.5
+                        : "white",
+                    textDecoration: "none",
+
                 }} to={"/"}>BudgetBuddy</Link>
             </span>
             <div className='rightheaders'>
                 <span className='navitem' >
                     <Link style={{
                         color
-                            : "black"
+                            : "white",
+                        textDecoration: "none",
                     }} to={"/"}>Home</Link>
                 </span>
                 <span className='navitem'>
                     <Link style={{
                         color
-                            : "black"
+                            : "white",
+                        textDecoration: "none",
                     }} to={"/explore"}>Explore</Link>
                 </span>
-                
+
                 <span className='navitem' >
                     <Link style={{
                         color
-                            : "black"
+                            : "white",
+                        textDecoration: "none",
                     }} to={"/addposting"}>Add Posting</Link>
                 </span>
                 <span className='navitem' >
                     <Link style={{
                         color
-                            : "black"
+                            : "white",
+                        textDecoration: "none",
                     }} to={"/coins"}>Log In</Link>
                 </span>
             </div>
-        </div>
+        </div >
     )
 }
 

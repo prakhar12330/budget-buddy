@@ -1,24 +1,34 @@
-.container-ls
-{
-    padding-left: 20%;
+.container-ls {
+  padding-left: 20%;
 }
 
-.inp
-{
-    height: 25px;
-    background-color: rgba(128, 128, 128, 0.46);
-    border-radius: 5px;
-    padding-left: 4px;
-    width: 60%;
+.inp {
+  height: 25px;
+  border-radius: 5px;
+  padding-left: 4px;
+  padding: 10px 30px;
+  margin: 10px;
+  width: 60%;
+  border: none;
+  background-color: rgb(235, 235, 235);
 }
 
-
-.ls-button
-{
-    border-radius: 5px;
+.ls-button {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(77, 107, 254);
+  padding: 20px 60px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-.ls-btt
-{
-    padding-left: 27%;
+.ls-button:hover {
+  opacity: 0.7;
+}
+
+.ls-btt {
+  padding-left: 27%;
 }
